@@ -2,6 +2,7 @@
   "name": "ev1",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +13,8 @@
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
     "axios": "^1.7.7",
-    "express": "^4.20.0"
+    "express": "^4.20.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.10"
